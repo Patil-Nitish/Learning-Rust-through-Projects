@@ -40,3 +40,7 @@ You can explore any folder to see its code and try it out.
    ```bash
    git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
    cd Learning-Rust-through-Projects
+3. Navigate to a project folder and run:
+   ```bash
+   cd name-of-project
+   cargo run
