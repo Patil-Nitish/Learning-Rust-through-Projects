@@ -34,14 +34,13 @@ You can explore any folder to see its code and try it out.
 
 1. Install Rust: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)  
 2. Clone this repo:
-   ```bash
+   <code>```bash
    git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
-   cd Learning-Rust-through-Projects
+   cd Learning-Rust-through-Projects</code>
 3. Navigate to a project folder:
-```bash
+<code>```bash
 cd name-of-project
-cargo run
----
+cargo run</code>
 
 📚 Current Projects
 <!-- project-list-start -->
