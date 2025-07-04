@@ -32,14 +32,11 @@ You can explore any folder to see its code and try it out.
 
 ## ▶️ How to Run
 
-```bash
-# Step 1: Install Rust (if not already installed)
-# https://www.rust-lang.org/tools/install
+1. Install Rust:  
+   [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
 
-# Step 2: Clone the repository
-git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
-cd Learning-Rust-through-Projects
+2. Clone this repo:
 
-# Step 3: Navigate to any project and run it
-cd name-of-project
-cargo run
+   ```bash
+   git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
+   cd Learning-Rust-through-Projects
