@@ -37,10 +37,8 @@ You can explore any folder to see its code and try it out.
    ```bash
    git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
    cd Learning-Rust-through-Projects
-Navigate to a project folder:
-
-'''bash
-
+3. Navigate to a project folder:
+```bash
 cd name-of-project
 cargo run
 
