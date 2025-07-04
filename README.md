@@ -32,33 +32,14 @@ You can explore any folder to see its code and try it out.
 
 ## ▶️ How to Run
 
-1. Install Rust: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)  
-2. Clone this repo:
-   ```bash
-   git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
-   cd Learning-Rust-through-Projects ```
-3. Navigate to a project folder:
 ```bash
+# Step 1: Install Rust (if not already installed)
+# https://www.rust-lang.org/tools/install
+
+# Step 2: Clone the repository
+git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
+cd Learning-Rust-through-Projects
+
+# Step 3: Navigate to any project and run it
 cd name-of-project
-cargo run ```
-
-📚 Current Projects
-<!-- project-list-start -->
-🔹 guess_number
-
-🔹 temp_converter
-
-<!-- project-list-end -->
-Run ./update_readme.sh after adding a new project to update this list.
-
-📌 Note
-This is an open learning journey. Projects range from very simple to progressively more complex over time.
-Feel free to explore, learn from, or contribute!
-
-
-
-
-
-
-
-
+cargo run
