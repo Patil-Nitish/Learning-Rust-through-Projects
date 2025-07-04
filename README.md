@@ -41,6 +41,7 @@ You can explore any folder to see its code and try it out.
 ```bash
 cd name-of-project
 cargo run
+---
 
 📚 Current Projects
 <!-- project-list-start -->
