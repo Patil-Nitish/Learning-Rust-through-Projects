@@ -46,12 +46,13 @@ You can explore any folder to see its code and try it out.
    cargo run
 
 
-📚 Current Projects
-<!-- project-list-start -->
-🔹 guess_number
-🔹 temp_converter
+## 📚 Current Projects
 
+<!-- project-list-start -->
+🔹 guess_number  
+🔹 temp_converter  
 <!-- project-list-end -->
+
 Run ./update_readme.sh after adding a new project to update this list.
 
 📌 Note
