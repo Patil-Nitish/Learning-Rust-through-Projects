@@ -51,9 +51,10 @@ You can explore any folder to see its code and try it out.
 <!-- project-list-start -->
 🔹 guess_number  
 🔹 temp_converter  
-🔹 Task_Manager
-🔹 word_frequency_counter
+🔹 Task_Manager  
+🔹 word_frequency_counter  
 <!-- project-list-end -->
+
 
 
 
