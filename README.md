@@ -53,6 +53,7 @@ You can explore any folder to see its code and try it out.
 🔹 temp_converter  
 🔹 Task_Manager  
 🔹 word_frequency_counter  
+🔹 file_hasher
 <!-- project-list-end -->
 
 
