@@ -52,9 +52,10 @@ You can explore any folder to see its code and try it out.
 🔹 guess_number  
 🔹 temp_converter  
 🔹 Task_Manager
+🔹 word_frequency_counter
 <!-- project-list-end -->
 
-Run ./update_readme.sh after adding a new project to update this list.
+
 
 📌 Note
 This is an open learning journey. Projects range from very simple to progressively more complex over time.
