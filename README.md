@@ -53,9 +53,10 @@ You can explore any folder to see its code and try it out.
 🔹 temp_converter  
 🔹 Task_Manager  
 🔹 word_frequency_counter  
-🔹 file_hasher
-🔹 password_prophet
+🔹 file_hasher  
+🔹 password_prophet  
 <!-- project-list-end -->
+
 
 
 
