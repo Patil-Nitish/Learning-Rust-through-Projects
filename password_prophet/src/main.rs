@@ -18,17 +18,22 @@ fn load_common_password() -> HashSet<String> {
 
 fn evaluate_password(pass: &str, common: HashSet<String>) -> u8 {
     let mut score:u8 = 0;
-    if pass.len() <= 8 {
+    if pass.len() >= 8 {
         score += 1;
-    } if pass.len() <= 12 {
+    } 
+    if pass.len() >= 12 {
         score += 1;
-    }  if pass.chars().any(|c| c.is_numeric()) {
+    }  
+    if pass.chars().any(|c| c.is_numeric()) {
         score += 1;
-    }  if pass.chars().any(|c| !c.is_alphanumeric()) {
+    }  
+    if pass.chars().any(|c| !c.is_alphanumeric()) {
         score += 1;
-    } else if pass != pass.to_lowercase() && pass != pass.to_uppercase() {
+    }  
+    if pass != pass.to_lowercase() && pass != pass.to_uppercase() {
         score += 1;
-    }  if common.contains(pass) {
+    }  
+    if common.contains(pass) {
         score = score.saturating_sub(1);
     }
     score
