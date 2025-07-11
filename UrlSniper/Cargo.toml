@@ -1,0 +1,12 @@
+[package]
+name = "UrlSniper"
+version = "0.1.0"
+edition = "2024"
+authors = ["Nitish Patil"]
+description = "🕵️‍♂️ Terminal-based Suspicious URL Analyzer built in Rust"
+license = "MIT"
+
+[dependencies]
+regex = "1"
+url = "2"
+colored = "2"
