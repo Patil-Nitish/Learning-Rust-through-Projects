@@ -55,7 +55,9 @@ You can explore any folder to see its code and try it out.
 🔹 word_frequency_counter  
 🔹 file_hasher  
 🔹 password_prophet  
+🔹 URLSniper  
 <!-- project-list-end -->
+
 
 
 
