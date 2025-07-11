@@ -14,12 +14,6 @@ helpdesk
 wallet
 security
 checkout
-paypal
-amazon
-apple
-google
-microsoft
-facebook
 reset
 unlock
 recovery

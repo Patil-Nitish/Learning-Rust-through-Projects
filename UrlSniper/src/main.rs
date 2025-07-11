@@ -57,8 +57,8 @@ fn analyze_url(url: &str, tlds: &HashSet<String>, keywords: &HashSet<String>) ->
     if let Ok(parsed) = Url::parse(url) {
         let domain = parsed.domain().unwrap_or("").to_lowercase();
         let path = parsed.path().to_lowercase();
-        let host = parsed.host_str().unwrap_or("").to_lowercase();
-        let tld = if let Some(host) = parsed.host_str() {
+        let _host = parsed.host_str().unwrap_or("").to_lowercase();
+        let _tld = if let Some(host) = parsed.host_str() {
             host.split('.').last().unwrap_or("").to_lowercase()
         } else {
             "".to_string()

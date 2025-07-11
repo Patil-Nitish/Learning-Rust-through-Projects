@@ -1,4 +1,6 @@
 http://example.com/login
+http://badguy.cf/freemoney/steal?id=123&phish=true&longpayload=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+https://google.com/
 http://mysite.net/form
 http://unsafeportal.org/data
 http://oldserver.com/info
