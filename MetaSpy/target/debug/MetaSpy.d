@@ -1,0 +1,1 @@
+D:\Rust\ Projects\Learning-Rust-through-Projects\MetaSpy\target\debug\MetaSpy.exe: D:\Rust\ Projects\Learning-Rust-through-Projects\MetaSpy\src\main.rs D:\Rust\ Projects\Learning-Rust-through-Projects\MetaSpy\src\scanner.rs
