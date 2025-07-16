@@ -1,0 +1,1 @@
+for<'a, 'b> fn(&'a aes_gcm::AesGcm<aes::autodetect::Aes256, typenum::uint::UInt<typenum::uint::UInt<typenum::uint::UInt<typenum::uint::UInt<typenum::uint::UTerm, typenum::bit::B1>, typenum::bit::B1>, typenum::bit::B0>, typenum::bit::B0>>, &'b str) -> Option<String> {decrypt_message}

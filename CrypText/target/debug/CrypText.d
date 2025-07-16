@@ -1,0 +1,1 @@
+D:\Rust\ Projects\Learning-Rust-through-Projects\CrypText\target\debug\CrypText.exe: D:\Rust\ Projects\Learning-Rust-through-Projects\CrypText\src\lib.rs D:\Rust\ Projects\Learning-Rust-through-Projects\CrypText\src\main.rs
