@@ -56,8 +56,9 @@ You can explore any folder to see its code and try it out.
 🔹 file_hasher  
 🔹 password_prophet  
 🔹 URLSniper  
-🔹 MetaSpy
+🔹 MetaSpy  
 🔹 CrypText
+
 <!-- project-list-end -->
 
 
