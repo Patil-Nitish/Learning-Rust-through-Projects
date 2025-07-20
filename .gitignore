@@ -1,0 +1,24 @@
+# Vagrant/VM files
+.vagrant/
+*.vbox
+*.vdi
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+**/Cargo.lock
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite
