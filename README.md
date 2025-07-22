@@ -58,6 +58,8 @@ You can explore any folder to see its code and try it out.
 🔹 URLSniper  
 🔹 MetaSpy  
 🔹 CrypText
+🔹 PassVault
+🔹 PacketSpy
 
 <!-- project-list-end -->
 
