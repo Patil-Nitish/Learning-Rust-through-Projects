@@ -1,0 +1,9 @@
+[package]
+name = "packetspy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pcap="2.3.0"
+etherparse="0.13.0"
+colored = "2.0"
