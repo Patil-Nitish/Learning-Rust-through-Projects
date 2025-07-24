@@ -49,15 +49,19 @@ You can explore any folder to see its code and try it out.
 ## 📚 Current Projects
 
 <!-- project-list-start -->
-🔹 guess_number  
-🔹 temp_converter  
-🔹 Task_Manager  
-🔹 word_frequency_counter  
-🔹 file_hasher  
-🔹 password_prophet  
-🔹 URLSniper  
-🔹 MetaSpy  
-🔹 CrypText
+| 🔢 | Project Name             | Description                                         |
+| -- | ------------------------ | --------------------------------------------------- |
+| 01 | `guess_number`           | Classic guessing game (Rust's "Hello World")        |
+| 02 | `temp_converter`         | Convert temperatures between Celsius and Fahrenheit |
+| 03 | `Task_Manager`           | Command-line to-do app with task tracking           |
+| 04 | `word_frequency_counter` | Analyzes word counts from a text file               |
+| 05 | `file_hasher`            | Calculates and compares file hashes                 |
+| 06 | `password_prophet`       | Evaluates password strength with flair              |
+| 07 | `URLSniper`              | Flags suspicious or malformed URLs                  |
+| 08 | `MetaSpy`                | Extracts and inspects metadata from files/URLs      |
+| 09 | `CrypText`               | Encrypted TCP chat with AES and async Rust          |
+| 10 | `PassVault`              | Secure password vault (CLI-based)                   |
+| 11 | `PacketSpy`              | Terminal packet sniffer with logging and stats      |
 
 <!-- project-list-end -->
 
