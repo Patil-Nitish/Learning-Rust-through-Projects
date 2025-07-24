@@ -1,0 +1,11 @@
+D:\RustProjects\Learning-Rust-through-Projects\warpwire\target\debug\deps\libc-b7cf4978544abab1.d: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+D:\RustProjects\Learning-Rust-through-Projects\warpwire\target\debug\deps\liblibc-b7cf4978544abab1.rlib: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+D:\RustProjects\Learning-Rust-through-Projects\warpwire\target\debug\deps\liblibc-b7cf4978544abab1.rmeta: C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs:
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs:

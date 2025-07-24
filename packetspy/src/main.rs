@@ -59,8 +59,8 @@ fn main() {
     let mut input=String::new();
     println!("Please enter duration in milliseconds: ");
     stdin().read_line(&mut input).expect("Failed to read input");
-    
-    let  duration=Duration::from_millis(input.trim().parse::<u64>().unwrap_or(3000));
+    let duration_millis:u64=input.trim().parse().unwrap_or(3000);
+    let  duration=Duration::from_millis(duration_millis);
     let start_time=Instant::now();
     println!("📡 Capturing packets for {} miliseconds...", duration.as_millis());
 

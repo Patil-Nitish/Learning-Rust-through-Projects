@@ -1,0 +1,12 @@
+[package]
+name = "warpwire"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+wintun = "0.5"
+anyhow = "1.0"
+bytes="1.5"
+tun="0.7"
