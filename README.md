@@ -61,7 +61,8 @@ You can explore any folder to see its code and try it out.
 | 08 | `MetaSpy`                | Extracts and inspects metadata from files/URLs      |
 | 09 | `PassVault`              | Offline AES-encrypted password manager              |
 | 10 | `PacketSpy`              | Terminal-based packet sniffer with real-time analysis |
-| 11 | `warpwire`               | Network tunnel using TUN interfaces and UDP forwarding |
+| 11 | `WarpWire`               | Network tunnel using TUN interfaces and UDP forwarding |
+| 12 | `AuthWall`               | Secure CLI authentication system with admin controls |
 <!-- project-list-end -->
 
 
