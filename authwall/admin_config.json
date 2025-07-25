@@ -1,0 +1,5 @@
+{
+  "password_hash": "$argon2id$v=19$m=19456,t=2,p=1$pyxpfPsnDRoqJO1KSvsVeQ$DuRVyaO32UjckjWsBBK57xyJ2Pl12PIbropUiNrgj+I",
+  "salt": "pyxpfPsnDRoqJO1KSvsVeQ",
+  "setup_complete": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "username": "alice",
+    "password_hash": "$argon2id$v=19$m=19456,t=2,p=1$UVmjPYFLrf/Wj21ZfQTXrQ$V/EIUnBMdd76o0RCYtA/FMzUW1s6Dy4y0NYkFfYcY2g",
+    "salt": "UVmjPYFLrf/Wj21ZfQTXrQ",
+    "failed_attempts": 3
+  },
+  {
+    "username": "lucifer",
+    "password_hash": "$argon2id$v=19$m=19456,t=2,p=1$keJDS52LAvPSpMQy6Wf+hg$vx8kOFtIO+3JuluNyhVKhOjmhlbCSvVnNcLUU2b10hE",
+    "salt": "keJDS52LAvPSpMQy6Wf+hg",
+    "failed_attempts": 0
+  }
+]
