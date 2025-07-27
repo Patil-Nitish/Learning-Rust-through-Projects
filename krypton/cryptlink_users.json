@@ -1,0 +1,18 @@
+[
+  {
+    "username": "test",
+    "password_hash": "$argon2id$v=19$m=4096,t=3,p=1$c29tZVNhbHQ$EMUZdlmqcxdNr9QfF5YlPw",
+    "salt": "some Salt",
+    "created_at": 1700000000,
+    "is_admin": false,
+    "vpn_ip": null
+  },
+  {
+    "username": "lucifer",
+    "password_hash": "$argon2id$v=19$m=19456,t=2,p=1$/Xcc3D8mDj3HkqyNccJvHQ$RtJhoyoD/OMGmU+vai9H3JAF2mB7XChV2fRc9RjMOuE",
+    "salt": "Ds02/4w76kDcDXzXLXE3xA",
+    "created_at": 1753628444,
+    "is_admin": false,
+    "vpn_ip": null
+  }
+]

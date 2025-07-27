@@ -1,0 +1,88 @@
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = Some(C:\npcap-sdk-1.15\Lib\x64)
+PATH = Some(D:\RustProjects\Learning-Rust-through-Projects\krypton\target\debug\deps;D:\RustProjects\Learning-Rust-through-Projects\krypton\target\debug;C:\Users\Nitish\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Users\Nitish\AppData\Roaming\Python\Python312\Scripts\buildozer.exe;C:\Users\Nitish\AppData\Roaming\Python\Python312\Scripts\virtualenv.exe;C:\Users\Nitish\AppData\Roaming\Python\Python312\site-packages;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\msys64\mingw64\bin\;c:\Users\Nitish\AppData\Local\Programs\cursor\resources\app\bin;D:\RustProjects\Learning-Rust-through-Projects\warpwire;C:\Users\Nitish\.cargo\bin;C:\Users\Nitish\AppData\Local\Microsoft\WindowsApps;C:\Users\Nitish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nitish\.dotnet\tools;C:\Users\Nitish\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.3\bin;;C:\msys64\ucrt64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Users\Nitish\AppData\Local\Microsoft\WinGet\Links;C:\Users\Nitish\AppData\Roaming\npm;c:\Users\Nitish\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\msys64\mingw64\bin;C:\Users\Nitish\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = Some(C:\Program Files\Npcap)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+blocksort.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+huffman.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+crctable.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+randtable.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+compress.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+decompress.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+bzlib.c
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\Nitish\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-lib=static=bz2
+cargo:rustc-link-search=native=D:\RustProjects\Learning-Rust-through-Projects\krypton\target\debug\build\bzip2-sys-e9a7c2c36bc56aac\out\lib
+cargo:root=D:\RustProjects\Learning-Rust-through-Projects\krypton\target\debug\build\bzip2-sys-e9a7c2c36bc56aac\out
+cargo:include=D:\RustProjects\Learning-Rust-through-Projects\krypton\target\debug\build\bzip2-sys-e9a7c2c36bc56aac\out\include

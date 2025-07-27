@@ -1,0 +1,34 @@
+🔐 CryptLink Build System Starting...
+🪟 Setting up Windows environment...
+🪟 Setting up Windows TUN interface (WinTUN)
+✅ WinTUN DLL found
+📋 Copied wintun.dll to target/debug/wintun.dll
+📋 Copied wintun.dll to target/release/wintun.dll
+⚠️  Failed to copy wintun.dll to wintun.dll: The process cannot access the file because it is being used by another process. (os error 32)
+cargo:rustc-link-lib=ws2_32
+cargo:rustc-link-lib=iphlpapi
+cargo:rustc-link-lib=netapi32
+✅ Windows environment configured
+📋 Setting up embedded databases with admin configuration...
+✅ Users database found: cryptlink_users.json
+✅ Admin configuration found and validated
+cargo:rerun-if-changed=cryptlink_users.json
+cargo:rerun-if-changed=cryptlink_admin.json
+📝 Generating embedded constants...
+✅ Embedded constants generated
+
+📋 Platform-Specific Instructions:
+==========================================
+🪟 Windows:
+   • Run as Administrator for full VPN functionality
+   • Windows Defender may require firewall exceptions
+   • WinTUN driver will be installed automatically
+
+🔐 Admin Setup:
+   • Admin password will be prompted on first run
+   • Like AuthWall, admin setup is handled at runtime
+   • Admin config: cryptlink_admin.json
+   • User database: cryptlink_users.json
+==========================================
+
+✅ Build setup completed successfully!

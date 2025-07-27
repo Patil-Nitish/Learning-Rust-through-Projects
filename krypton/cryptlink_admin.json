@@ -1,0 +1,13 @@
+{
+  "password_hash": "30c2b71352398b7f",
+  "salt": "1da7b3697808e727",
+  "setup_complete": true,
+  "created_at": "2025-08-12T13:48:36Z",
+  "last_updated": "2025-08-12T13:48:36Z",
+  "security_settings": {
+    "max_failed_attempts": 3,
+    "session_timeout_hours": 24,
+    "require_strong_passwords": true,
+    "enable_2fa": false
+  }
+}
