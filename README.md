@@ -59,10 +59,12 @@ You can explore any folder to see its code and try it out.
 | 06 | `password_prophet`       | Evaluates password strength with flair              |
 | 07 | `URLSniper`              | Flags suspicious or malformed URLs                  |
 | 08 | `MetaSpy`                | Extracts and inspects metadata from files/URLs      |
-| 09 | `PassVault`              | Offline AES-encrypted password manager              |
-| 10 | `PacketSpy`              | Terminal-based packet sniffer with real-time analysis |
-| 11 | `WarpWire`               | Network tunnel using TUN interfaces and UDP forwarding |
-| 12 | `AuthWall`               | Secure CLI authentication system with admin controls |
+| 09 | `CrypText`               | Secure real-time chat with X25519 + AES-256-GCM encryption |
+| 10 | `passvault`              | Password manager with secure storage                 |
+| 11 | `packetspy`              | Network packet analysis and monitoring tool         |
+| 12 | `warpwire`               | VPN tunnel implementation with secure connections    |
+| 13 | `authwall`               | Authentication system with admin management         |
+| 14 | `krypton`                | Advanced cryptographic operations and protocols     |
 <!-- project-list-end -->
 
 
