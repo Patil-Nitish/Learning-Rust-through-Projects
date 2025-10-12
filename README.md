@@ -1,73 +1,238 @@
-# 🦀 Learning Rust Through Projects ![status](https://img.shields.io/badge/status-Learning_Rust-ffaa00?style=flat-square)
+<div align="center">
 
-This repository is a collection of small Rust projects I’m building as part of my journey to learn the language from scratch.
+# 🦀 Learning Rust Through Projects
 
-Each project focuses on a specific concept or feature in Rust — from basic syntax to more advanced topics over time.
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Status](https://img.shields.io/badge/status-Active-success?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![Projects](https://img.shields.io/badge/projects-14-orange?style=for-the-badge)
 
----
+**A hands-on journey through Rust programming, from basics to advanced systems programming**
 
-## 🎯 Goals
+[Getting Started](#-getting-started) • [Projects](#-projects) • [Technologies](#-technologies-used) • [Contributing](#-contributing)
 
-- Learn Rust through hands-on coding  
-- Build projects to reinforce each new topic  
-- Develop a consistent practice habit  
-- Understand Rust by experimenting, failing, and improving  
-
----
-
-## 🗂️ Structure
-
-This repository contains multiple small Rust projects, each in its own directory.  
-Projects are named based on what they cover or demonstrate (e.g., `guess_number`, `temp_converter`, etc.).
-
-Each project is:
-
-- Self-contained  
-- Uses Rust's standard `cargo` project layout  
-- Designed to focus on a specific concept or feature
-
-You can explore any folder to see its code and try it out.
+</div>
 
 ---
 
-## ▶️ How to Run
+## 📖 About
 
-1. Install Rust:  
-   [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+This repository contains a curated collection of **14 progressively complex Rust projects** built as part of a structured learning journey. Each project is designed to teach specific Rust concepts while building real-world, practical applications.
 
-2. Clone this repo:
+### 🎯 Learning Objectives
 
+- **Master Rust fundamentals** through hands-on coding
+- **Build confidence** with incremental complexity
+- **Explore systems programming** including networking, cryptography, and security
+- **Develop production-ready skills** with real-world project patterns
+- **Learn by doing** - from simple CLI tools to complex networked applications
+
+---
+
+## 📑 Table of Contents
+
+- [About](#-about)
+- [Getting Started](#-getting-started)
+- [Projects](#-projects)
+  - [Beginner Projects](#beginner-projects-1-5)
+  - [Intermediate Projects](#intermediate-projects-6-10)
+  - [Advanced Projects](#advanced-projects-11-14)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Rust** (latest stable version recommended)
+  - Install via [rustup](https://rustup.rs/): `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- **Cargo** (comes with Rust)
+- **Git** for cloning the repository
+
+### Installation
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Patil-Nitish/Learning-Rust-through-Projects.git
    cd Learning-Rust-through-Projects
-3. Navigate to a project folder and run:
+   ```
+
+2. **Navigate to any project**
    ```bash
-   cd name-of-project
+   cd project-name
+   ```
+
+3. **Build and run**
+   ```bash
+   cargo build --release
    cargo run
+   ```
 
+### Quick Start Example
 
-## 📚 Current Projects
+```bash
+# Try the guessing game (beginner project)
+cd guessing_game
+cargo run
 
-<!-- project-list-start -->
-| 🔢 | Project Name             | Description                                         |
-| -- | ------------------------ | --------------------------------------------------- |
-| 01 | `guess_number`           | Classic guessing game (Rust's "Hello World")        |
-| 02 | `temp_converter`         | Convert temperatures between Celsius and Fahrenheit |
-| 03 | `Task_Manager`           | Command-line to-do app with task tracking           |
-| 04 | `word_frequency_counter` | Analyzes word counts from a text file               |
-| 05 | `file_hasher`            | Calculates and compares file hashes                 |
-| 06 | `password_prophet`       | Evaluates password strength with flair              |
-| 07 | `URLSniper`              | Flags suspicious or malformed URLs                  |
-| 08 | `MetaSpy`                | Extracts and inspects metadata from files/URLs      |
-| 09 | `CrypText`               | Secure real-time chat with X25519 + AES-256-GCM encryption |
-| 10 | `passvault`              | Password manager with secure storage                 |
-| 11 | `packetspy`              | Network packet analysis and monitoring tool         |
-| 12 | `warpwire`               | VPN tunnel implementation with secure connections    |
-| 13 | `authwall`               | Authentication system with admin management         |
-| 14 | `krypton`                | Advanced cryptographic operations and protocols     |
-<!-- project-list-end -->
+# Or try the password strength checker
+cd password_prophet
+cargo run
+```
 
+---
 
-📌 Note
-This is an open learning journey. Projects range from very simple to progressively more complex over time.
-Feel free to explore, learn from, or contribute!
+## 📚 Projects
+
+### Beginner Projects (1-5)
+
+Perfect for understanding Rust basics, syntax, and standard library usage.
+
+| # | Project | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| **01** | [`guessing_game`](./guessing_game) | Classic number guessing game - Rust's traditional first project | Variables, loops, pattern matching, user input |
+| **02** | [`Temperature_converter`](./Temperature_converter) | Convert between Celsius and Fahrenheit with validation | Functions, type conversion, error handling |
+| **03** | [`Task_Manager`](./Task_Manager) | Command-line todo list with persistent storage | Structs, file I/O, CRUD operations |
+| **04** | [`word_frequency_counter`](./word_frequency_counter) | Analyze text files and count word occurrences | HashMaps, iterators, text processing |
+| **05** | [`file_hasher`](./file_hasher) | Calculate and compare cryptographic file hashes (MD5, SHA-256) | File handling, cryptographic hashing, hex encoding |
+
+### Intermediate Projects (6-10)
+
+Building on fundamentals with more complex logic and external dependencies.
+
+| # | Project | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| **06** | [`password_prophet`](./password_prophet) | Password strength evaluator with witty AI-style feedback | String validation, pattern matching, randomization |
+| **07** | [`UrlSniper`](./UrlSniper) | URL validator that detects suspicious or malformed links | Regex, URL parsing, security patterns |
+| **08** | [`MetaSpy`](./MetaSpy) | Extract and inspect metadata from files and URLs | Metadata extraction, HTTP requests, data parsing |
+| **09** | [`CrypText`](./CrypText) | **Real-time encrypted chat** with E2E encryption (X25519 + AES-256-GCM) | Async networking, cryptography, key exchange |
+| **10** | [`passvault`](./passvault) | Secure password manager with master password protection | Encryption/decryption, secure storage, JSON serialization |
+
+### Advanced Projects (11-14)
+
+Systems programming, networking, and advanced cryptography implementations.
+
+| # | Project | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| **11** | [`packetspy`](./packetspy) | Network packet analyzer and monitoring tool | Raw sockets, packet parsing, network protocols |
+| **12** | [`warpwire`](./warpwire) | VPN tunnel implementation with secure connections | TUN/TAP interfaces, IP routing, tunneling |
+| **13** | [`authwall`](./authwall) | Complete authentication system with role-based admin management | User management, Argon2 hashing, access control |
+| **14** | [`krypton`](./krypton) | **Production-grade authenticated P2P VPN** (Windows & Linux) | Full VPN stack, P2P networking, cross-platform development |
+
+---
+
+## 🛠️ Technologies Used
+
+This repository demonstrates proficiency with various Rust libraries and technologies:
+
+### Core Rust
+- **Standard Library**: Comprehensive use of `std` for I/O, collections, and system APIs
+- **Cargo**: Dependency management and build system
+- **Error Handling**: `Result`, `Option`, custom error types with `anyhow`
+
+### Networking & Async
+- **tokio**: Async runtime for concurrent applications
+- **TUN/TAP**: Virtual network interfaces for VPN projects
+- **Sockets**: Raw socket programming for packet analysis
+
+### Cryptography
+- **aes-gcm**: Authenticated encryption (AES-256-GCM)
+- **x25519-dalek**: Elliptic curve key exchange (X25519)
+- **argon2**: Password hashing with modern KDF
+- **sha2**: Cryptographic hash functions
+- **ring**: High-performance cryptographic operations
+
+### Serialization & Data
+- **serde**: Serialization framework
+- **serde_json**: JSON support
+- **base64**: Binary-to-text encoding
+
+### CLI & User Interface
+- **clap**: Command-line argument parsing
+- **rpassword**: Secure password input
+
+### Platform-Specific
+- **wintun**: Windows TUN driver interface
+- **nix**: Unix/Linux system calls
+- **libc**: Low-level C library bindings
+
+---
+
+## 🗂️ Project Structure
+
+Each project follows Rust's standard cargo structure:
+
+```
+project-name/
+├── Cargo.toml          # Dependencies and project metadata
+├── src/
+│   ├── main.rs         # Entry point
+│   └── ...             # Additional modules (for larger projects)
+└── README.md           # Project-specific documentation (where applicable)
+```
+
+### Design Philosophy
+
+1. **Self-contained**: Each project is independent and runnable
+2. **Progressive complexity**: Projects build on previously learned concepts
+3. **Real-world applications**: Focus on practical, usable software
+4. **Clean code**: Emphasis on idiomatic Rust and best practices
+5. **Documentation**: Code comments explain key concepts and decisions
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! This is a learning project, so feel free to:
+
+- 🐛 Report bugs or issues
+- 💡 Suggest improvements or optimizations
+- 📖 Improve documentation
+- ✨ Add new example projects
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Contact
+
+**Nitish Patil**
+
+- GitHub: [@Patil-Nitish](https://github.com/Patil-Nitish)
+- Repository: [Learning-Rust-through-Projects](https://github.com/Patil-Nitish/Learning-Rust-through-Projects)
+
+---
+
+## 🌟 Acknowledgments
+
+- **The Rust Community** for excellent documentation and resources
+- **The Rust Book** for foundational knowledge
+- **Rustlings** for inspiring hands-on learning
+- All contributors and learners who explore this repository
+
+---
+
+<div align="center">
+
+**⭐ If you find this helpful, please consider giving it a star! ⭐**
+
+Made with ❤️ and 🦀 by [Nitish Patil](https://github.com/Patil-Nitish)
+
+</div>
